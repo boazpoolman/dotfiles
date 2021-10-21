@@ -1,2 +1,15 @@
+[user]
+	email = boaz_skater@hotmail.com
+	name = Boaz Poolman
 [alias]
 	cleanup = "!git branch --merged | grep -v '\\*\\|master\\|devel\\|develop\\|development\\|origin' | xargs -n 1 git branch -d && git remote prune origin"
+	pom = push origin master
+	pum = pull origin master
+	pod = push origin develop
+	pud = pull origin develop
+	ds = diff --staged
+	d = diff
+	aa = add --all
+	st = status
+	b = branch
+	c = checkout
